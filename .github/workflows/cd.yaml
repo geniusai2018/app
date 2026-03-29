@@ -47,7 +47,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.name "geniusai2018" # 변경 필요
-          git config --global user.email "geniusai2018@gmail.com" #변경 필요
+          git config --global user.email "geniusai.2018@gmail.com" #변경 필요
           
           git add charts/myapp/values.yaml
           
